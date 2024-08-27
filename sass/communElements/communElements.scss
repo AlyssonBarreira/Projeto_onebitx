@@ -32,6 +32,26 @@
     border: 2px solid white;
 }
 
+.downloadDesc {
+    background-color: black;
+    height: 85vh;
+    padding-top: 240px;
+
+    button {
+        border: 2px solid white;
+        margin-right: 10px;
+    }
+}
+
+.emailObc {
+    text-decoration: none;
+    color: $copy-color;
+
+    &:hover {
+        color: $link-hover;
+    }
+}
+
 .footer {
     background-color: black;
     height: 15vh;
@@ -56,7 +76,7 @@
 }
 
 // Media Query
-@media (max-width: 500px){
+@media (max-width: 500px) {
     .downloadDesc {
         button {
             margin: 10px 0px;
@@ -64,21 +84,20 @@
     }
 }
 
-@media (max-width: 405px){
-    .logoPc{
+@media (max-width: 405px) {
+    .logoPc {
         width: 180px;
         margin-top: 15px;
     }
 
-    .footer{
+    .footer {
         font-size: 10px;
     }
 }
 
-@media (max-width: 350px){
-    .logoPc{
+@media (max-width: 350px) {
+    .logoPc {
         width: 150px;
         margin-top: 15px;
     }
 }
-
